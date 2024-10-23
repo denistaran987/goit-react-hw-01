@@ -20,12 +20,19 @@ a:hover {
 
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
   font-family: sans-serif;
   line-height: 1.5;
   margin: 0;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 h1,
@@ -42,6 +49,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {
